@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+\title{ASSIGNMENT 01}
+\author{Muneeb Ahmad Sheikh}
+\date{\today}
+\maketitle
+
+\begin{itemize}
+\item{\textbf{Question:}}\\
+
+Find the values of x,y,z if the matrix\\
+ \[
+ A=
+ \begin{bmatrix}
+  
+         0 & 2y & z\\
+         x & y & -z\\
+         x & -y & z
+ \end{bmatrix}
+\] satisfy the equation A'A=I.
+
+\item{\textbf{SOLUTION:}}\\
+
+We're given with a matrix A.\\
+and\\
+A'A=I\\
+
+Now,\\
+
+\[
+\begin{bmatrix}
+   0 & x & x\\           
+   2y & y & -y \\     
+   z & -z & z              
+ \end{bmatrix} 
+      *
+ \begin{bmatrix}
+         0 & 2y & z\\
+         x & y & -z\\
+         x & -y & z
+ \end{bmatrix}
+      = 
+ \begin{bmatrix}
+         1 & 0 & 0\\
+         0 & 1 & 0\\
+         0 & 0 & 1
+ \end{bmatrix}
+\]
+\[
+\begin{bmatrix}
+  0+x^2+x^2 & 0+xy-xy & 0-xz+xz\\
+  0+xy-xy   & 4y^2+y^2+y^2 & 2yz-yz-yz\\
+  0-zx+zx   & 2yz-zy-zy    & z^2+z^2+z^2
+ \end{bmatrix}
+ =
+ \begin{bmatrix}
+         1 & 0 & 0\\
+         0 & 1 & 0\\
+         0 & 0 & 1
+ \end{bmatrix}
+ \]
+ 
+ \[
+\begin{bmatrix}
+  2x^2 & 0 & 0\\
+  0  & 6y^2 & 0\\
+  0  & 0    & 3z^2
+ \end{bmatrix}
+ =
+ \begin{bmatrix}
+         1 & 0 & 0\\
+         0 & 1 & 0\\
+         0 & 0 & 1
+ \end{bmatrix}
+ \]
+\newpage 
+ Now,\\
+ 
+  2x^2=1\\
+ 
+  6y^2=1\\
+ 
+  3z^2=1\\
+ 
+ After solving these three equations,
+ 
+   x=\pm\sqrt{1/2}\\
+   
+   y=\pm\sqrt{1/6}\\
+   
+   z=\pm\sqrt{1/3}\\ 
+ 
+\end{itemize}
+\end{document}
